@@ -3,7 +3,7 @@ import streamlit as st
 import numpy as np
 
 
-model = joblib.load('tips.pkl')
+model = joblib.load('tips/tips.pkl')
 
 total_bill = st.number_input('Enter total bill')
 tip = st.number_input('Enter tip')
